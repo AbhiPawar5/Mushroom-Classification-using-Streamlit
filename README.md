@@ -5,3 +5,5 @@ Streamlit allows rapid webapp development without the knowledge of HTML and CSS.
 This code and idea is taken from Coursera's guided project - Build a Machine Learning Web App with Streamlit and Python
 
 ![Screenshot](Streamlit_UI.png)
+ 
+ The webapp is designed to classify whether the mushroom is edible or poisonous. You can find the dataset here : https://archive.ics.uci.edu/ml/datasets/Mushroom
