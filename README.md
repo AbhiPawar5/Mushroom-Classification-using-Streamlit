@@ -3,3 +3,5 @@ Streamlit’s open-source app framework is the easiest way for data scientists a
 
 Streamlit allows rapid webapp development without the knowledge of HTML and CSS. And no need to write backend or handle HTTP requests.
 This code and idea is taken from Coursera's guided project - Build a Machine Learning Web App with Streamlit and Python
+
+![Screenshot](Streamlit_UI.png)
