@@ -1,3 +1,7 @@
+"""
+This code has been referred from Coursera guided project for learning.
+Please feel free to copy/edit this code as per Coursera's code of honor.
+"""
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -11,7 +15,7 @@ from sklearn.metrics import precision_score, recall_score
 
 def main():
     st.title("Binary Classification Web App")
-    st.sidebar.title("Binary Classification Web App")
+    st.sidebar.title("Binary Classification Web App by Abhishek Pawar")
     st.markdown("Are your mushrooms edible or poisonous? 🍄")
     st.sidebar.markdown("Are your mushrooms edible or poisonous? 🍄")
 
@@ -63,7 +67,7 @@ def main():
 
         metrics = st.sidebar.multiselect("What metrics to plot?", ('Confusion Matrix', 'ROC Curve', 'Precision-Recall Curve'))
         
-        if st.sidebar.button("Classify", key='classify'):
+        if st.sidebar.button("Classify!", key='classify'):
             st.subheader("Support Vector Machine (SVM) Results")
             model = SVC(C=C, kernel=kernel, gamma=gamma)
             model.fit(x_train, y_train)
@@ -116,6 +120,8 @@ def main():
         st.markdown("This [data set](https://archive.ics.uci.edu/ml/datasets/Mushroom) includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms "
         "in the Agaricus and Lepiota Family (pp. 500-525). Each species is identified as definitely edible, definitely poisonous, "
         "or of unknown edibility and not recommended. This latter class was combined with the poisonous one.")
+
+    st.markdown("The goal of this project is to learn streamlit and deploy this project to Heroku. Please feel free to fork this project. Thank you for your time.")
 
 if __name__ == '__main__':
     main()
