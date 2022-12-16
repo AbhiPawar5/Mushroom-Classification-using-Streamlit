@@ -5,6 +5,7 @@ The webapp is designed to classify whether the mushroom is edible or poisonous.
 
 ## Link for webapp
 Try this app out on : https://voyage-gerard-94371.herokuapp.com/
+#### NOTE : The app is currently stopped due to change in Heroku's free tier policy. I am planning to deploy this app on another free tier soon. Thanks
 
 ## About the dataset
 You can find the dataset here : https://archive.ics.uci.edu/ml/datasets/Mushroom
